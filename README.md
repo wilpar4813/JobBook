@@ -11,7 +11,7 @@
 
 **_About Job Book_**
 
--   The Job Book is a place where software developer can easily find and apply for exciting new jobs. Users must sign in to the site to uses. Once logged in, users can enter a job keyword and location to find all of the software jobs in the area selected. For busy developers, job searches ands listing can be saved for later review.
+-   The Job Book is a place where software developers can easily find and apply for exciting new jobs. New users must sign up. Once logged in, Enter a job keyword and location to find all of the software jobs in the area selected. For busy developers, job searches ands listing can be saved for later review.
 
 **_Configuration instructions_**
 
