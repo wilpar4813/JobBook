@@ -19,19 +19,7 @@ https://job-book2.herokuapp.com/
 
 https://github.com/wilpar4813/Project_2
 
-## Installation instructions
-
-* To run locally, download files from repository to a folder on your computer from:
-
-https://github.com/bclark07/Project_2
-
-* This program requires node and a connection to a MySQL database.
-* From the parent directory type node server.js and hit enter.
-* The program will start.
-* Using a main stream browser, visit localhost:8080.
-
 ## Operating instructions
-
 * User must login, or signup if a new user. An email address and password will be required to signup.
 * The Job Book home page will appear.
 * Enter a search keywork and location. Then click Search Jobs. Cick Save Search to store the search in the database.
@@ -41,7 +29,6 @@ https://github.com/bclark07/Project_2
 * The user can click the logout button in the nav bar to sign out.
 
 ## List of files included in the following structure
-
 * config folder
     * config.json
     * middleware folder
@@ -87,7 +74,6 @@ https://github.com/bclark07/Project_2
 * package.json
 
 ## Copyright and licensing information
-
 *The slider photos are from: https://pixabay.com
     * Simplified Pixabay License
     * Our license empowers creators and protects our community. We want to keep it as simple as possible. Here is an overview of what Pixabay content can and can't be used for.
@@ -102,18 +88,15 @@ https://github.com/bclark07/Project_2
     * Don't use images with identifiable brands to create a misleading association with a product or service.
 
 **_Contact information for the distributor or programmer_**
-
 * Contact: Tripp Parham 
 * Email: tripp.parham@gmail.com
 
 ## Known bugs[0]
-
 * Clicking the home button does not return user to home page
 * Saved Listing?
 * Save Search?
 
 ## Troubleshooting[0]
-
 * New users can successfuilly sign up for Job Book access.
 * Registered users can succesfully login to Job Book.
 * The home page correctly loads.
@@ -126,11 +109,9 @@ https://github.com/bclark07/Project_2
 ### Special thanks to the Instructors and Staff at the UNC Coding Bootcamp. They are an awesome team.:-) I recommnend Trilogy to anyone that wants to learn Javascript Web Development. They have a fine tuned program and lots of great resources.
 
 ## Site Updates
-
 * Version 1.0.0 Released Saturday February 29th, 2020
 
 ## Features Currently in Development
-
 * Feature to add geotag to show local jobs
 * Feature that will build a github profile for the user
 * Feature that will add job hunting tips
