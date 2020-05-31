@@ -6,7 +6,7 @@
 * Web Design By Brittany Clark, Clint Gordy, and Tripp Parham
 * Published: Saturday February 29th 2020
 
-## About Job Book
+## About JobBook
 As a software developer, searching for a new job can be a difficult and time consuming process.  With JobBook, you can easily find and apply for exciting new jobs. New users must sign up. Once logged in, Enter a job keyword and location to find all of the software jobs in the area selected. For busy developers, job searches ands listing can be saved for later review.
 
 # Screenshots
