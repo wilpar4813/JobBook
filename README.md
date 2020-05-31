@@ -10,9 +10,15 @@
 As a software developer, searching for a new job can be a difficult and time consuming process.  With JobBook, you can easily find and apply for exciting new jobs. New users must sign up. Once logged in, Enter a job keyword and location to find all of the software jobs in the area selected. For busy developers, job searches ands listing can be saved for later review.
 
 # Screenshots
+
 ![JobBook Image](./public/img/jobBook.png)
+
+
 ![JobBook Image](./public/img/jobBook2.png)
+
+
 ![JobBook Image](./public/img/jobBook3.png)
+
 
 ## Configuration instructions
 * No configuration necessory. Works on most mainstream browsers.
