@@ -15,7 +15,7 @@ As a software developer, searching for a new job can be a difficult and time con
 ![JobBook Image](./public/img/jobBook3.png)
 
 ## Configuration instructions
-* No configuration necessory. Works on muost mainstream browsers.
+* No configuration necessory. Works on most mainstream browsers.
 * To find new and exciting opportunities, visit the following link to experience the Job Book:
 
 https://job-book2.herokuapp.com/
