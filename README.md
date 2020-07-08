@@ -24,7 +24,7 @@ As a software developer, searching for a new job can be a difficult and time con
 * No configuration necessory. Works on most mainstream browsers.
 * To find new and exciting opportunities, visit the following link to experience the Job Book:
 
-https://job-book2.herokuapp.com/
+https://myjobbook.herokuapp.com
 
 * Code for The Job Book is located atL
 
