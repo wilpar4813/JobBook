@@ -2,7 +2,7 @@
 var mysql = require("mysql");
 
 //DECLARING PORT
-var PORT = process.env.PORT || 3006;
+var PORT = process.env.PORT || 3306;
 
 var connection;
 //ADD this link to interact with JAWSDB
@@ -13,7 +13,7 @@ if (process.env.JAWSDB_URL) {
     host: "localhost",
     port: PORT,
     user: "root",
-    password: "Td@ddy!69",
+    password: "password",
     database: "listing_db"
   });
 }
