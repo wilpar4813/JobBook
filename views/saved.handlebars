@@ -1,24 +1,28 @@
-<div class="row">
+<div class="row savedJobH4">
+     <h4>Saved Job Listings</h4>
+        <hr />
     <div class="col s12 saved-table">
-        <h4>Saved Job Listings</h4>
+       
         <table class="highlight">
             <thead>
             </thead>
             <tbody id="saved">
                 {{#each saved}}
-                <tr>{{title}}</tr>
+                <div class="row saved">
+                <tr><b>Title:</b> {{title}}</tr>
                 <br>
-                <tr>{{location}}</tr>
+                <tr><b>Location:</b> {{location}}</tr>
                 <br>
-                <tr>{{company}}</tr>
+                <tr><b>Company:</b> {{company}}</tr>
                 <br>
-                <tr>{{{howToApply}}}</tr>
+                <tr><b>Apply:</b> {{{howToApply}}}</tr>
                 <br>
                 <!--href embeded in the table object, would need to store differently to manipulate with target="_blank"? -->
                 <button class="deleteBtn waves-effect waves-light btn" id={{jobID}}>Delete</button>
                 <br>
                 <hr />
                 <br>
+                </div>
                 {{/each}}
             </tbody>
         </table>

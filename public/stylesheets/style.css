@@ -120,9 +120,25 @@ html {
     color: #ffffff;
 } */
 
+.savedJobH4 h4{
+    font-weight: bolder;
+    padding:20px;
+}
+.saved{
+    /* border: 1px solid purple; */
+    border-radius: .25px;
+    background: tomato;
+}
+.saved tr{
+    font-weight: bolder;
+}
 .saved-table {
     color: black;
     font-size:24px;
+}
+
+.saved-table h4{
+    font-weight: bolder;
 }
 
 .saveBtn {
@@ -144,6 +160,7 @@ html {
     bottom: 0px;
     left: 0px;
     border-top: 2px solid black;
+    z-index: 1;
 }
 
 .footer h5{
