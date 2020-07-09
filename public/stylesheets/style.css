@@ -2,6 +2,10 @@ h1 h2 h3 h4 h5 {
     font-weight: bold !important;
 }
 
+#saved{
+    color:black;
+    font-size:24px;
+}
 .mainBody{
     background-color: purple;
     height:100%;
@@ -117,7 +121,8 @@ html {
 } */
 
 .saved-table {
-    color: white;
+    color: black;
+    font-size:24px;
 }
 
 .saveBtn {
@@ -132,8 +137,15 @@ html {
 
 .footer{
     position: fixed;
-    background: purple;
+    /* background: purple; */
+    font-weight: bolder;
     width: 100%;
+    height:auto;
     bottom: 0px;
     left: 0px;
+    border-top: 2px solid black;
+}
+
+.footer h5{
+    font-weight: bolder;
 }
