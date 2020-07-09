@@ -61,9 +61,15 @@ caption.center.align h2 {
 
 .loginHeader {
     background: purple;
-  
+    
 }
 
+.text-box{
+    background: rgba(0,0,0,.6);
+    border-radius: 25px;
+    color:white;
+    padding:20px;
+}
 .brandContainer{
     background-color:transparent;
     width:75%;
