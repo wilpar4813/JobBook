@@ -71,7 +71,7 @@ function generateResults(data) {
     $("#results").append(row);
   }
 
-  $("#numResults").html(data.length);
+  $("#numResults").html("Jobs Found: " + data.length);
 
   // Save button that saves data to our database
   $(".saveBtn").on("click", function() {

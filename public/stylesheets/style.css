@@ -151,6 +151,9 @@ html {
     color: white;
 }
 
+#numResults{
+    font-size: 20px;
+}
 .footer{
     position: fixed;
     /* background: purple; */
