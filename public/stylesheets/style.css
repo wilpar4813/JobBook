@@ -2,8 +2,9 @@ h1 h2 h3 h4 h5 {
     font-weight: bold !important;
 }
 
-body{
-    max-height: 846px;
+.mainBody{
+    background-color: purple;
+    height:100%;
 }
 .navbar-header h1{
      color:white;
@@ -20,9 +21,7 @@ body{
     margin-right: auto;
     width: 50%;
 }
-.row .signUp{
-    
-}
+
 
 #signUpBox{
     border:1px solid purple !important;
@@ -129,4 +128,12 @@ html {
 .deleteBtn {
     background: teal;
     color: white;
+}
+
+.footer{
+    position: fixed;
+    background: purple;
+    width: 100%;
+    bottom: 0px;
+    left: 0px;
 }
