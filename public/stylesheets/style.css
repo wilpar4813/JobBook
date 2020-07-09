@@ -2,10 +2,18 @@ h1 h2 h3 h4 h5 {
     font-weight: bold !important;
 }
 
+body{
+    max-height: 846px;
+}
 .navbar-header h1{
      color:white;
      margin-left: auto;
      margin-right: auto;
+}
+
+.right a{
+    font-size:25px;
+    font-weight: bolder;
 }
 .signUpContainer{
     margin-left: auto;
@@ -45,7 +53,8 @@ h1 h2 h3 h4 h5 {
     width: 100%;
 }
 .nav-wrapper {
-    margin-left: 20px;
+    margin-left: 40px;
+    margin-right: 20px;
 }
 
 .slider .slides ul li {
