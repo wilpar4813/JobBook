@@ -29,7 +29,11 @@ h1 h2 h3 h4 h5 {
     color: purple !important;
 }
 
-
+.btn{
+    font-size:30px !important;
+    font-weight: bolder;
+    border-radius: 15px;
+}
 .section-follow .fa-3x {
     margin: 5px 10px;
 }
