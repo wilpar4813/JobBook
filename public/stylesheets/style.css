@@ -132,9 +132,11 @@ td{
     border-radius: .25px;
     background: tomato;
 }
+
 .saved tr{
     font-weight: bolder;
 }
+
 .saved-table {
     color: black;
     font-size:24px;
@@ -157,18 +159,23 @@ td{
 #numResults{
     font-size: 20px;
 }
+
 .footer{
     position: fixed;
     /* background: purple; */
     font-weight: bolder;
     width: 100%;
-    height:auto;
+    margin-top:120px;
     bottom: 0px;
     left: 0px;
     border-top: 2px solid black;
     z-index: 1;
 }
 
-.footer h5{
+.footer h6{
     font-weight: bolder;
+}
+hr{
+    border-color:white;
+    margin-top:40px;
 }

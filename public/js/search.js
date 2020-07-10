@@ -67,7 +67,9 @@ function generateResults(data) {
 
     //   Adds everything to table
     td.append(button);
+    // td.append("<hr />");
     row.append(td);
+   
     $("#results").append(row);
   }
 
