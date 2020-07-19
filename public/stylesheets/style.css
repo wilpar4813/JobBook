@@ -13,7 +13,12 @@ body{
     height:100%;
 }
 
+.sidenav a{
+    color:white !important;
+    font-size:24px !important;
+    font-weight: bold !important;
 
+}
 .navbar-header h1{
      color:white;
      margin-left: auto;
@@ -121,7 +126,11 @@ p {
 html {
     background-color: black;
 }
-
+.sidenav{
+    
+    background-color: black;
+    font-size:20px;
+}
 td{
     font-size:24px;
 }
