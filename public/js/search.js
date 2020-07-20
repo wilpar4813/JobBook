@@ -5,6 +5,7 @@ $(function() {
   $("#searchBtn").on("click", function() {
     //put in code to clear previous search results
     $("#results").empty();
+    $(".slider").hide();
     console.log("Search has been clicked.");
 
     var keyword = $("#autocomplete-keyword-input").val();
