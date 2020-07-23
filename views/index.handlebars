@@ -1,5 +1,6 @@
 <!-- Section:Slider -->
-<div class="container searchRow">
+<div class="container searchRow ">
+    <div class="searchFields"></div>
     <div class="keywordSearch">
 
         <div class="input-field">
@@ -9,14 +10,15 @@
             </button>
         </div>
     </div>
-    <div class="locationSearch">
+    
+    <div class="locationSearch" >
 
         <div class="input-field">
             <input type="text" class="black autocompleteLocation" id="autocomplete-location-input"
                 placeholder="Search by Location">
 
         </div>
-
+ 
     </div>
     <div class="searchButton">
         <button class="btn center fas fa-search" id="searchBtn" type="submit" name="action">
@@ -24,7 +26,7 @@
     </div>
 </div>
 
-<div class="mainBody">
+<div class="container mainBody">
     <section class="slider">
         <ul class="slides">
             <li>
@@ -32,8 +34,8 @@
                 <!-- random image -->
                 <div class="caption center-align text-box">
                     <h2>Find New Doors to Open</h2>
-                    <h5 class="light grey-text text-lighten-3 hide-on-small-only">
-                        Our database has listing for thousands of companies so that you can find your dream job</h5>
+                    <h5 class="light grey-text text-lighten-3">
+                        GitJob is a great resource for searching the GitHub job listing database of thousands of coding jobs. </h5>
                 </div>
             </li>
             <li>
@@ -42,8 +44,7 @@
                 <div class="caption left-align text-box">
                     <h2>Superior Job Search</h2>
                     <h5 class="light grey-text text-lighten-3">
-                        Take your job search to new heights searching a wide selection of jobs by using a keyword and/or
-                        location</h5>
+                        Search by Keyword and/or Location </h5>
                 </div>
             </li>
             <li>
@@ -96,14 +97,12 @@
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 <script>
-    // Sidenav
-    const sideNav = document.querySelector('.sidenav');
-    M.Sidenav.init(sideNav, {});
+
     // Slider
     const slider = document.querySelector('.slider');
     M.Slider.init(slider, {
         indicators: false,
-        height: 500,
+        maxheight: 500,
         transition: 500,
         interval: 6000
     });
