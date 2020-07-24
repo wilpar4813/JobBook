@@ -1,28 +1,28 @@
 <!-- Section:Slider -->
 <div class="container searchRow ">
-    <div class="searchFields"></div>
-    <div class="keywordSearch">
+    <div class="searchFields">
+        <div class="keywordSearch">
 
-        <div class="input-field">
-            <input type="text" class="black autocompleteKeyword" id="autocomplete-keyword-input"
-                placeholder="Search by Keyword">
+            <div class="input-field">
+                <input type="text" class="black autocompleteKeyword" id="autocomplete-keyword-input"
+                    placeholder="Search by Keyword">
 
-            </button>
+                </button>
+            </div>
         </div>
-    </div>
-    
-    <div class="locationSearch" >
 
-        <div class="input-field">
-            <input type="text" class="black autocompleteLocation" id="autocomplete-location-input"
-                placeholder="Search by Location">
+        <div class="locationSearch">
+
+            <div class="input-field">
+                <input type="text" class="black autocompleteLocation" id="autocomplete-location-input"
+                    placeholder="Search by Location">
+
+            </div>
 
         </div>
- 
-    </div>
-    <div class="searchButton">
-        <button class="btn center fas fa-search" id="searchBtn" type="submit" name="action">
-        </button>
+        <div class="searchButton">
+            <button class="btn center fas fa-search" id="searchBtn" type="submit" name="action"></button>
+        </div>
     </div>
 </div>
 
@@ -35,7 +35,9 @@
                 <div class="caption center-align text-box">
                     <h2>Find New Doors to Open</h2>
                     <h5 class="light grey-text text-lighten-3">
-                        GitJob is a great resource for searching the GitHub job listing database of thousands of coding jobs. </h5>
+                        GitJob is a great resource for searching the GitHub job listing database of thousands of coding
+                        jobs.
+                    </h5>
                 </div>
             </li>
             <li>
@@ -44,7 +46,8 @@
                 <div class="caption left-align text-box">
                     <h2>Superior Job Search</h2>
                     <h5 class="light grey-text text-lighten-3">
-                        Search by Keyword and/or Location </h5>
+                        Search by Keyword and/or Location
+                    </h5>
                 </div>
             </li>
             <li>
@@ -68,32 +71,33 @@
             </li>
         </ul>
     </section>
-   
-        <section id="jobListings" class="section section-search darken-2 white-text center scrollspy">
-            <div class="row">
-                <div class="col s12">
-                    {{!-- <h4>Current Job Listings</h4> --}}
-                    <table class="highlight">
-                        <thead>
-                            <tr>
-                                <th>
-                                    <span id="numResults"></span>
-                                </th>
-                            </tr>
-                        </thead>
-                        <tbody id="results"></tbody>
-                    </table>
-                </div>
-            </div>
 
-        </section>
-        <section class="section section-follow darken-1 black white-text center footer">
-            <div class="row">
-                <div class="col s12">
-                    <h6>TrippIO Copyright 2020</h6>
-                </div>
+    <section id="jobListings" class="section section-search darken-2 white-text center scrollspy">
+        <div class="row">
+            <div class="col s12">
+                {{!-- <h4>Current Job Listings</h4> --}}
+                <table class="highlight">
+                    <thead>
+                        <tr>
+                            <th>
+                                <span id="numResults"></span>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody id="results"></tbody>
+                </table>
             </div>
-        </section><!-- Compiled and minified JavaScript -->
+        </div>
+
+    </section>
+    <section class="section section-follow darken-1 black white-text center footer">
+        <div class="row">
+            <div class="col s12">
+                <h6>TrippIO Copyright &#169; 2020</h6>
+            </div>
+        </div>
+    </section>
+    <!-- Compiled and minified JavaScript -->
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 <script>

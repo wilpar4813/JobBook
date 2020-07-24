@@ -1,8 +1,19 @@
 h1 h2 h3 h4 h5 {
     font-weight: bold !important;
 }
+h2{
+    font-size: 30px;
+}
+
+h5{
+    font-size:20px;
+}
 body{
+    /* font-family: 'Lexend Peta', sans-serif; */
     background-color:black;
+}
+th{
+    font-weight: bolder !important;
 }
 #saved{
     color:black;
@@ -40,7 +51,7 @@ body{
 .signUpContainer{
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 80%;
 }
 
 
@@ -155,8 +166,14 @@ html {
 }
 td{
     font-size:24px;
+    font-weight: bolder;
     border-radius: 25px;
+    width: 250px;
+    max-width: 400px;
+    padding:15px !important;
+    overflow:hidden;
 }
+
 /* #saved {
     color: #ffffff;
 } */
@@ -222,15 +239,15 @@ td{
 }
 
 hr{
-    border-color:white;
+    border:2px solid white;
     margin-top:40px;
 }
 
 .searchRow{
-    display:inline-flex;
+    /* display:inline-flex; */
     border-radius: 15px;
-    margin-bottom:50px;
-    margin-left: 20px;
+    margin-bottom:25px;
+    margin-left: 20px auto;
     /* width:100% */
     
 
@@ -239,6 +256,7 @@ hr{
     height: 45px;
     margin: auto 10px;
     vertical-align: middle;
+    margin-right:auto;
 }
 
 .input-field{
@@ -248,11 +266,14 @@ hr{
     
 }
 .searchFields{
+    margin-top: 25px;
     margin-left: auto;
     margin-right: auto;
+    width:100%;
+    display:flex;
 }
 .keywordSearch{
-    /* margin-left:auto; */
+    margin-left:auto;
 }
 
 .locationSearch{
@@ -292,8 +313,23 @@ hr{
     }
   }
 
-  @media screen and (max-width: 600px) {
-    .searchRow{
+  @media screen and (max-width: 650px) {
+      .container{
+          width: 100%;
+      }
+    .searchFields{
         display: block;
     }
+
+    td{
+        font-size:18px;
+        border-radius: 25px;
+        max-width: 250px;
+        overflow: hidden;
+    }
+    
+    td > p{
+        font-size:18px;
+    }
+
   }
